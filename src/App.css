@@ -45,25 +45,20 @@ li{
   text-align: start;
 }
 
-div.carousel{
-  text-align: center;
-}
-
-div.carousel img {
-  max-width: 50vw;
-  text-align: center;
-}
-
-div.wrapper{
+div.carousel-container{
   min-height: 100vh;
   display: flex;
   align-items: center;
   align-content: center;
   text-align: center;
-};
+}
 
-div.wrapper img{
-  display: none;
+div.carousel img {
+  min-width: 50vw;
+  max-width: 50vw;
+  text-align: center;
+  max-height: 500px;
+  min-height: 500px;
 }
 
 img.react-logo{
