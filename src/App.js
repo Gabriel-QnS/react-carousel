@@ -1,6 +1,6 @@
 import './App.css';
 import Carousel from './carousel.js';
-import img1 from './assets/img1.jpg'
+import logo from './logo.svg'
 
 function List(props){
   return (
@@ -13,15 +13,24 @@ function List(props){
   );
 }
 
+function Footer(){
+  return (
+  <div className='footer bg-dark border border-red mt-2'>
+    <p className="text-light text-center">React App made by <a className='link-warning' href='https://github.com/Gabriel-QnS'>Gabriel-QnS</a></p>
+  </div>)
+}
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="p-2 bg-primary border-dark">An Image Carousel</h1>
+    <div>
+      <header className="App-header border-bottom-4 border-light mb-2">
+        <h1 className="p-2 border-dark">An Image Carousel</h1>
+        <img className="react-logo" src="logo"></img>
       </header>
       <div className="wrapper">
       <Carousel />
       </div>
+      <Footer />
     </div>
   );
 }
