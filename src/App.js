@@ -22,10 +22,11 @@ function Footer(){
 
 function App() {
   return (
-    <div className='bg-warning'>
+    <div className='bg-light-tertiary'>
       <header className="App-header border-bottom-4 border-light mb-2">
         <h1 className="p-2 border-dark">An Image Carousel</h1>
-        <img className="react-logo" src="logo"></img>
+        <h3>Made with <span>React</span></h3>
+        <img style={{maxWidth: "20vw"}} className="react-logo" src={logo}></img>
       </header>
       <div className="wrapper bg-dark">
       <Carousel />
