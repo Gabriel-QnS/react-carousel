@@ -50,7 +50,7 @@ function Carousel() {
   const pics = [];
 
   for (let i = 1; i <= 5; i++) {
-    pics.push(`./assets/img${i}.jpg`);
+    pics.push(`./assets/originals/picture${i}.jpg`);
   }
 
   return (

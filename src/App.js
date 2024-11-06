@@ -4,7 +4,7 @@ import logo from './logo.svg'
 
 function Footer(){
   return (
-  <div className='footer bg-dark p-2'>
+  <div className='footer bg-dark p-2 mt-2'>
     <p className="text-light text-center">React App made by <a className='link-info' href='https://github.com/Gabriel-QnS'>Gabriel-QnS</a></p>
   </div>)
 }
