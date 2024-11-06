@@ -43,3 +43,7 @@ li{
   list-style: none;
   text-align: start;
 }
+
+div.carousel img {
+  max-width: 50vw;
+}

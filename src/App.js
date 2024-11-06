@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import Carousel from './carousel.js';
+import img1 from './assets/img1.jpg'
 
 function List(props){
   return (
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={img1} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -29,6 +30,7 @@ function App() {
         <List name='Translation'/>
         </a>
       </header>
+      <Carousel />
     </div>
   );
 }
