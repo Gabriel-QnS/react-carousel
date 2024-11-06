@@ -22,12 +22,12 @@ function Footer(){
 
 function App() {
   return (
-    <div>
+    <div className='bg-warning'>
       <header className="App-header border-bottom-4 border-light mb-2">
         <h1 className="p-2 border-dark">An Image Carousel</h1>
         <img className="react-logo" src="logo"></img>
       </header>
-      <div className="wrapper">
+      <div className="wrapper bg-dark">
       <Carousel />
       </div>
       <Footer />

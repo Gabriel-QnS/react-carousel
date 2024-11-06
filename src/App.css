@@ -53,3 +53,15 @@ div.carousel img {
   max-width: 50vw;
   text-align: center;
 }
+
+div.wrapper{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+};
+
+div.wrapper img{
+  display: none;
+}

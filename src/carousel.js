@@ -21,7 +21,7 @@ function Carousel(){
     console.log(pics)
 
     return(
-        <div className='carousel bg-dark border border-danger'>
+        <div className='carousel m-auto'>
             <img src={pics[currentIndex]} alt="A string of numbers"></img>
         </div>
     )
