@@ -17,20 +17,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={img1} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <List name='Translation'/>
-        </a>
+        <h1 className="p-2 bg-primary border-dark">An Image Carousel</h1>
       </header>
+      <div className="wrapper">
       <Carousel />
+      </div>
     </div>
   );
 }
