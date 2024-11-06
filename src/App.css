@@ -61,6 +61,13 @@ div.carousel img {
   min-height: 500px;
 }
 
+@media (max-width: 720px) {
+  div.carousel img{
+    min-width: 50vw;
+    text-align: center;
+  }
+}
+
 img.react-logo{
   transition: 5s ease-in-out;
 }
