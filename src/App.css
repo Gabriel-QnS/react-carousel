@@ -64,6 +64,7 @@ div.carousel img {
 @media (max-width: 720px) {
   div.carousel img{
     min-width: 50vw;
+    min-height: 200px;
     text-align: center;
   }
 }
