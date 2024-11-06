@@ -54,17 +54,15 @@ div.carousel-container{
 }
 
 div.carousel img {
-  min-width: 50vw;
   max-width: 50vw;
   text-align: center;
+  min-height: 50vh;
   max-height: 500px;
-  min-height: 500px;
 }
 
 @media (max-width: 720px) {
   div.carousel img{
-    min-width: 50vw;
-    min-height: 200px;
+    min-height: 80vh;
     text-align: center;
   }
 }

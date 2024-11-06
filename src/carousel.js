@@ -54,7 +54,7 @@ function Carousel() {
   }
 
   return (
-    <div className="carousel-container p-4">
+    <div id="carousel" className="carousel-container p-4">
       <div className="carousel m-auto border border-light border-5">
         <img src={pics[currentIndex]} alt="A string of numbers" />
         <CarouselControls
