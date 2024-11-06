@@ -1,6 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+function List(props){
+  return (
+    <ol className='bg-primary text-light p-4'>
+      <h1>This is a source of information for {props.name}</h1>
+      <li>Option One</li>
+      <li>Option Two</li>
+      <li>Option Three</li>
+    </ol>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +26,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        <List name='Translation'/>
         </a>
       </header>
     </div>
