@@ -1,15 +1,20 @@
 nav{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #nav-ul{
     display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
 }
 
 #nav-ul a li{
-    width: 20vw;
+    width: calc(90vw/3);
     list-style: none;
+    text-align: center;
 }
 
 #nav-ul a{
